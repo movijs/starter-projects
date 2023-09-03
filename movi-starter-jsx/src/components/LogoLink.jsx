@@ -6,6 +6,6 @@ export class LogoLink extends Component {
     }
    
     view() { 
-        return <a  href={this.props.link} target="_blank"><img class="logo" src={this.props.logo}></img></a>
+        return <a href={this.props.link} target="_blank"><img class="logo" src={this.props.logo}></img></a>
     }
 }
